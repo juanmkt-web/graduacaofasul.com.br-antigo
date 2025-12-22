@@ -8,7 +8,7 @@ const HERO_BG_VERSION = Date.now();
 const Hero = () => {
   return (
     <section
-      className="relative flex items-center overflow-hidden pt-[72px] pb-8 md:pt-[112px] md:pb-16 bg-cover bg-[position:center_top] xl:bg-[position:center_20%] 2xl:bg-[position:center_35%]"
+      className="relative flex items-center overflow-hidden pt-[72px] pb-8 md:pt-[112px] md:pb-16 bg-cover bg-[position:70%_top] md:bg-[position:60%_top] xl:bg-[position:55%_20%] 2xl:bg-[position:55%_35%]"
       style={{
         backgroundImage: `url(${heroBackground}?v=${HERO_BG_VERSION})`,
       }}
