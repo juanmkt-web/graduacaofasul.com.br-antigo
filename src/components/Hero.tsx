@@ -41,8 +41,8 @@ const Hero = () => {
             </h1>
 
             <p className="text-base md:text-xl text-white/90 leading-relaxed mb-5 md:mb-8">
-              O mercado é implacável: ou você se atualiza, ou fica para trás. Garanta sua Graduação com foco em inovação
-              e assuma o controle da sua trajetória profissional.
+              Ficar parado é andar para trás. Acelere sua carreira com uma Graduação ágil que te coloca no ritmo das
+              grandes empresas.
             </p>
 
             <div className="mb-5 md:mb-8 flex justify-center md:justify-start">
@@ -55,7 +55,7 @@ const Hero = () => {
                   size="lg"
                   className="bg-primary text-primary-foreground hover:bg-primary/80 font-bold text-sm md:text-lg px-6 md:px-10 py-5 md:py-7 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 animate-pulse-cta w-full md:w-auto"
                 >
-                  GARANTIR MEU FUTURO <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
+                  QUERO EVOLUIR <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
                 </Button>
               </a>
             </div>
