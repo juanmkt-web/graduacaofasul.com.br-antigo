@@ -11,7 +11,7 @@ const testimonials = [
       "No escritório, eu era vista apenas como a pessoa que cuidava da papelada de admissão e demissão. Eu queria implantar treinamentos e cultura, mas não tinha voz ativa. A graduação me deu o estofo técnico para estruturar o setor. Hoje sou Coordenadora e quem define a estratégia de pessoas na empresa sou eu.",
     name: "Gizely Reis",
     course: "Gestão de Recursos Humanos",
-    photo: gizelyFoto,
+    photo: gizeliFoto,
   },
   {
     id: 2,
