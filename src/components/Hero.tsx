@@ -55,7 +55,7 @@ const Hero = () => {
                   size="lg"
                   className="bg-primary text-primary-foreground hover:bg-primary/80 font-bold text-sm md:text-lg px-6 md:px-10 py-5 md:py-7 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 animate-pulse-cta w-full md:w-auto"
                 >
-                  QUERO EVOLUIR <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
+                  QUERO EVOLUIR AGORA <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
                 </Button>
               </a>
             </div>
