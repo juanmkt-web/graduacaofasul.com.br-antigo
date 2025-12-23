@@ -8,15 +8,15 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "Eu cansava de rodar a cidade mostrando imóvel pra no final outro corretor assinar o contrato e levar a comissão. Aquilo me doía no bolso. Fiz o curso pra tirar meu CRECI e entender a papelada. Hoje faço a venda de ponta a ponta e a comissão gorda fica toda comigo.",
-    name: "Bartolomeu Arruda",
-    course: "Negócios Imobiliários",
-    photo: bartolomeuFoto,
+      "No escritório, eu era vista apenas como a pessoa que cuidava da papelada de admissão e demissão. Eu queria implantar treinamentos e cultura, mas não tinha voz ativa. A graduação me deu o estofo técnico para estruturar o setor. Hoje sou Coordenadora e quem define a estratégia de pessoas na empresa sou eu.",
+    name: "Gizely Reis",
+    course: "Gestão de Recursos Humanos",
+    photo: gizelyFoto,
   },
   {
     id: 2,
     quote:
-      "Eu achava que Marketing era só fazer arte bonitinha no Canva, mas meu chefe cobrava venda e eu travava. O Curso me ensinou a estratégia por trás do post e como analisar dados. Hoje sei atrair cliente de verdade e provo meu valor mostrando relatório de faturamento.",
+      "Meu chefe achava que marketing era gasto, porque eu não sabia provar o retorno financeiro. Eu fazia postagens no 'feeling'. O curso me ensinou a analisar métricas e entender o comportamento do consumidor. Quando apresentei o primeiro relatório de vendas reais vindas das minhas campanhas, fui promovida a gerente.",
     name: "Amanda Dias",
     course: "Gestão de Marketing",
     photo: amandaFoto,
@@ -24,10 +24,10 @@ const testimonials = [
   {
     id: 3,
     quote:
-      "Eu trabalhava muito no operacional, 'apagando incêndio' o dia todo, mas na hora da promoção a vaga ia pra quem tinha diploma. Cansei de perder oportunidade. A Administração me deu a visão de gestor que faltava. Hoje lidero minha equipe e meu salário finalmente é compatível com meu esforço.",
-    name: "Gizely Reis",
-    course: "Administração",
-    photo: gizeliFoto,
+      "Eu trabalhava apenas com aluguel, mas sabia que o dinheiro de verdade estava na venda. O problema é que para vender alto padrão, o cliente exige confiança técnica e jurídica. A faculdade me preparou para avaliar imóveis com precisão e analisar contratos. Saí dos aluguéis pequenos para fechar vendas de seis dígitos.",
+    name: "Bartolomeu Arruda",
+    course: "Negócios Imobiliários",
+    photo: bartolomeuFoto,
   },
 ];
 
