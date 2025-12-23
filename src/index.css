@@ -47,16 +47,10 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
     
-    /* Gradient colors - Purple to Coral */
-    --gradient-start: 270 70% 18%;
-    --gradient-mid: 305 75% 35%;
-    --gradient-mid-2: 340 80% 45%;
-    --gradient-end: 12 85% 55%;
-    
-    /* Legacy gradient colors - updated */
-    --gradient-cyan: 204 78% 55%;
-    --gradient-purple: 280 65% 45%;
-    --gradient-blue: 220 80% 55%;
+    /* Gradient colors - Cyan, Purple, Blue */
+    --gradient-cyan: 191 100% 50%;
+    --gradient-purple: 263 85% 43%;
+    --gradient-blue: 217 98% 57%;
     
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -131,19 +125,26 @@ All colors MUST be HSL.
 }
 
 @layer utilities {
-  /* Fixed gradient background */
+  /* Animated gradient background - Cyan, Purple, Blue */
   .gradient-animated {
     background: linear-gradient(135deg, 
-      hsl(var(--gradient-start)) 0%, 
-      hsl(var(--gradient-mid)) 25%, 
-      hsl(var(--gradient-mid-2)) 70%, 
-      hsl(var(--gradient-end)) 100%
+      hsl(var(--gradient-cyan)) 0%, 
+      hsl(var(--gradient-purple)) 50%, 
+      hsl(var(--gradient-blue)) 100%
     );
+    background-size: 400% 400%;
+    animation: gradientAnimation 8s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
   }
   
   /* Gradient text - uses the same colors as gradient-animated */
   .gradient-text {
-    background: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-mid)), hsl(var(--gradient-end)));
+    background: linear-gradient(135deg, hsl(var(--gradient-cyan)), hsl(var(--gradient-purple)), hsl(var(--gradient-blue)));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
