@@ -37,7 +37,7 @@ const Hero = () => {
                 textShadow: "2px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
             >
-              O SUCESSO PROFISSIONAL<span className="text-primary"> EXIG UMA GRADUAÇÃO</span> DE ALTO NÍVEL.
+              O SUCESSO PROFISSIONAL<span className="text-primary"> EXIGE UMA GRADUAÇÃO</span> DE ALTO NÍVEL.
             </h1>
 
             <p className="text-base md:text-xl text-white/90 leading-relaxed mb-5 md:mb-8">
