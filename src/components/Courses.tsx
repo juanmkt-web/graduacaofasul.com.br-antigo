@@ -314,7 +314,7 @@ const CourseCard = ({ course, index }: { course: Course; index: number }) => {
             href={course.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-primary font-bold text-sm hover:underline flex-shrink-0"
+            className="text-primary font-bold text-sm border-2 border-primary rounded-full py-2 px-6 hover:bg-primary hover:text-white transition-colors flex-shrink-0"
           >
             SAIBA MAIS
           </a>
