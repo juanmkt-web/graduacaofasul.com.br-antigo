@@ -19,14 +19,14 @@ All colors MUST be HSL.
 
     /* Brand colors - Cyan #00c9ff */
     --primary: 191 100% 50%;
-    --primary-foreground: 220 38% 12%;
+    --primary-foreground: 0 0% 100%;
     
     --secondary: 263 85% 43%;
     --secondary-foreground: 0 0% 100%;
     
     /* Cyan for highlights */
     --cyan-light: 191 100% 50%;
-    --cyan-light-foreground: 220 38% 12%;
+    --cyan-light-foreground: 0 0% 100%;
 
     /* Dark blue for backgrounds - #1E2842 */
     --dark-blue: 220 38% 19%;
@@ -36,7 +36,7 @@ All colors MUST be HSL.
 
     /* CTA - Cyan #00c9ff */
     --accent: 191 100% 50%;
-    --accent-foreground: 220 38% 12%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
