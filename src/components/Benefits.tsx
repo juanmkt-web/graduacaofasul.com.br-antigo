@@ -69,7 +69,7 @@ const Benefits = () => {
                     }}
                   >
                     <div className="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-lg flex items-center justify-center bg-[#00D4FF] shadow-lg shadow-[#00D4FF]/30">
-                      <benefit.icon className="h-5 w-5 md:h-6 md:w-6 text-[#0a1628]" strokeWidth={2.5} />
+                      <benefit.icon className="h-5 w-5 md:h-6 md:w-6 text-white" strokeWidth={2.5} />
                     </div>
                     <div className="flex-1">
                       <p className="text-white text-sm md:text-lg leading-tight">
@@ -87,7 +87,7 @@ const Benefits = () => {
                   >
                     <Button
                       size="default"
-                      className="w-full lg:w-auto bg-[#00D4FF] hover:bg-[#00D4FF]/90 text-[#0a1628] font-bold text-sm md:text-lg px-6 md:px-12 py-4 md:py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                      className="w-full lg:w-auto bg-[#00D4FF] hover:bg-[#00D4FF]/90 text-white font-bold text-sm md:text-lg px-6 md:px-12 py-4 md:py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
                     >
                       COMECE SUA GRADUAÇÃO AGORA!
                       <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
