@@ -12,23 +12,23 @@ interface Professor {
 const professors: Professor[] = [{
   name: "Doutora Débora Maria Moreno Luzia",
   image: deboraLuzia,
-  lattesUrl: "#"
+  lattesUrl: "http://lattes.cnpq.br/4668535194933989"
 }, {
   name: "Mestre Maurício Ricardo Soares",
   image: mauricioSoares,
-  lattesUrl: "#"
+  lattesUrl: "http://lattes.cnpq.br/8461273296060802"
 }, {
   name: "Doutora Vera Lúcia da Silva Farias",
   image: veraFarias,
-  lattesUrl: "#"
+  lattesUrl: "http://lattes.cnpq.br/6885839820247204"
 }, {
   name: "Mestre Sérgio Ferreira da Silva",
   image: sergioSilva,
-  lattesUrl: "#"
+  lattesUrl: "http://lattes.cnpq.br/3242048483981824"
 }, {
   name: "Mestra Paola Marie Vitaca Rodrigues",
   image: paolaRodrigues,
-  lattesUrl: "#"
+  lattesUrl: "http://lattes.cnpq.br/8880858445724289"
 }];
 const Faculty = () => {
   return <section className="faculty-section">

@@ -27,7 +27,7 @@ const blogPosts: BlogPost[] = [
     views: 6821,
     comments: 0,
     likes: 418,
-    url: "#",
+    url: "https://www.fasulmg.com.br/post/mitos-e-verdades-sobre-o-ensino-a-distancia-da-fasul-como-funciona-e-suas-vantagens-para-sua-carreira/",
   },
   {
     title: "Como se Preparar para o Mercado de Trabalho em 2026",
@@ -38,7 +38,7 @@ const blogPosts: BlogPost[] = [
     views: 4532,
     comments: 12,
     likes: 287,
-    url: "#",
+    url: "https://www.fasulmg.com.br/post/guia-completo-do-vestibular-ao-diploma-e-suas-oportunidades-de-carreira/",
   },
   {
     title: "Tendências de Carreira para os Próximos Anos",
@@ -49,7 +49,7 @@ const blogPosts: BlogPost[] = [
     views: 5120,
     comments: 8,
     likes: 356,
-    url: "#",
+    url: "https://www.fasulmg.com.br/post/nao-estude-no-escuro-por-que-saber-quem-sao-seus-professores-define-o-valor-do-seu-diploma-fasul/",
   },
   {
     title: "A Importância da Educação Continuada",
@@ -60,7 +60,7 @@ const blogPosts: BlogPost[] = [
     views: 3890,
     comments: 5,
     likes: 198,
-    url: "#",
+    url: "https://www.fasulmg.com.br/post/a-escolha-inteligente-para-o-seu-futuro-com-nota-maxima-no-mec-e-preco-fixo-no-ead/",
   },
 ];
 
