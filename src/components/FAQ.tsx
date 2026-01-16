@@ -2,34 +2,29 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqItems = [
   {
-    question: "Qual é a duração dos cursos de Pós-Graduação?",
+    question: "Qual a duração dos cursos de graduação?",
     answer:
-      "Os cursos de Pós-Graduação EaD da FASUL têm duração média de 6 a 18 meses, dependendo da especialização escolhida. Você pode estudar no seu próprio ritmo, respeitando os prazos estabelecidos.",
+      "Nossos cursos de graduação têm duração a partir de 2 anos, dependendo da modalidade e área escolhida. Os cursos tecnológicos geralmente são mais curtos, enquanto bacharelados e licenciaturas podem ter durações maiores.",
   },
   {
     question: "O diploma é reconhecido pelo MEC?",
     answer:
-      "Sim! Todos os nossos cursos são devidamente reconhecidos pelo MEC (Ministério da Educação), garantindo validade nacional do seu diploma para concursos, progressão de carreira e atuação profissional.",
-  },
-  {
-    question: "Como funciona a metodologia EaD?",
-    answer:
-      "Nossa metodologia é 100% online, com videoaulas gravadas, materiais didáticos digitais, fóruns de discussão e suporte de tutores especializados. Você pode acessar o conteúdo 24 horas por dia, de qualquer dispositivo.",
-  },
-  {
-    question: "Preciso comparecer presencialmente em algum momento?",
-    answer:
-      "Não! Todo o curso é realizado de forma online, incluindo as avaliações. Você não precisa comparecer presencialmente em nenhum momento.",
+      "Sim! A FASUL é uma instituição com nota 5 no MEC, a nota máxima de avaliação. Todos os nossos diplomas são reconhecidos nacionalmente e têm a mesma validade de cursos presenciais.",
   },
   {
     question: "Quais são as formas de pagamento disponíveis?",
     answer:
-      "Oferecemos diversas opções de pagamento: cartão de crédito (parcelado em até 12x), boleto bancário, PIX e financiamento estudantil. Entre em contato com nossa equipe para conhecer as condições especiais.",
+      "Oferecemos diversas formas de pagamento: boleto bancário, cartão de crédito (com parcelamento), PIX e débito automático. Também temos programas de bolsas e descontos especiais.",
   },
   {
-    question: "Posso fazer mais de uma pós-graduação ao mesmo tempo?",
+    question: "Posso transferir meu curso de outra instituição?",
     answer:
-      "Sim! Inclusive, temos promoções especiais para quem deseja cursar múltiplas especializações. Aproveite nossa oferta de compre 1 e leve 4 para acelerar sua carreira.",
+      "Sim, aceitamos transferências de outras instituições de ensino superior. As disciplinas cursadas podem ser aproveitadas mediante análise curricular, reduzindo o tempo de conclusão do curso.",
+  },
+  {
+    question: "Quais são as modalidades disponíveis?",
+    answer:
+      "Oferecemos modalidades EaD e semipresencial, proporcionando flexibilidade para atender às diferentes necessidades dos nossos alunos. Escolha a opção que melhor se adapta à sua rotina!",
   },
 ];
 
