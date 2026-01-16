@@ -827,7 +827,7 @@ All colors MUST be HSL.
   display: flex;
   align-items: center;
   gap: 4px;
-  color: hsl(45, 95%, 55%);
+  color: hsl(210, 100%, 50%);
   font-size: 12px;
   font-weight: 500;
   text-decoration: underline;
@@ -836,7 +836,7 @@ All colors MUST be HSL.
 }
 
 .lattes-link:hover {
-  color: hsla(45, 95%, 55%, 0.8);
+  color: hsl(210, 100%, 40%);
 }
 
 @media (min-width: 768px) {
