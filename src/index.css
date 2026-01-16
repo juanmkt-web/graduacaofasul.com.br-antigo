@@ -850,7 +850,7 @@ All colors MUST be HSL.
 /* ===== BLOG SECTION ===== */
 .blog-section {
   position: relative;
-  padding-top: 60px;
+  padding-top: 0;
   padding-bottom: 128px;
   background-color: #1E2842;
 }
@@ -873,12 +873,12 @@ All colors MUST be HSL.
 
 @media (min-width: 768px) {
   .wave-top-blog { height: 64px; }
-  .blog-section { padding-top: 80px; }
+  .blog-section { padding-top: 0; }
 }
 
 @media (min-width: 1024px) {
   .wave-top-blog { height: 80px; }
-  .blog-section { padding-top: 100px; }
+  .blog-section { padding-top: 0; }
 }
 
 .blog-container {
