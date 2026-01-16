@@ -1,5 +1,11 @@
 import { ExternalLink } from "lucide-react";
 
+import deboraLuzia from "@/assets/debora-luzia.avif";
+import mauricioSoares from "@/assets/mauricio-soares.avif";
+import veraFarias from "@/assets/vera-farias.avif";
+import sergioSilva from "@/assets/sergio-silva.avif";
+import paolaRodrigues from "@/assets/paola-rodrigues.avif";
+
 interface Professor {
   name: string;
   image: string;
@@ -9,27 +15,27 @@ interface Professor {
 const professors: Professor[] = [
   {
     name: "Doutora Débora Maria Moreno Luzia",
-    image: "/placeholder.svg",
+    image: deboraLuzia,
     lattesUrl: "#",
   },
   {
-    name: "Doutor João Carlos Silva",
-    image: "/placeholder.svg",
+    name: "Mestre Maurício Ricardo Soares",
+    image: mauricioSoares,
     lattesUrl: "#",
   },
   {
-    name: "Mestre Ana Paula Santos",
-    image: "/placeholder.svg",
+    name: "Doutora Vera Lúcia da Silva Farias",
+    image: veraFarias,
     lattesUrl: "#",
   },
   {
-    name: "Doutor Ricardo Mendes",
-    image: "/placeholder.svg",
+    name: "Mestre Sérgio Ferreira da Silva",
+    image: sergioSilva,
     lattesUrl: "#",
   },
   {
-    name: "Mestre Carla Fernandes",
-    image: "/placeholder.svg",
+    name: "Mestra Paola Marie Vitaca Rodrigues",
+    image: paolaRodrigues,
     lattesUrl: "#",
   },
 ];
