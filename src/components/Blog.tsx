@@ -1,5 +1,10 @@
 import { Eye, MessageSquare, Heart } from "lucide-react";
 
+import blog1 from "@/assets/blog-1.webp";
+import blog2 from "@/assets/blog-2.webp";
+import blog3 from "@/assets/blog-3.webp";
+import blog4 from "@/assets/blog-4.webp";
+
 interface BlogPost {
   title: string;
   image: string;
@@ -15,7 +20,7 @@ interface BlogPost {
 const blogPosts: BlogPost[] = [
   {
     title: "Mitos e Verdades sobre o Ensino a Distância no Brasil",
-    image: "/placeholder.svg",
+    image: blog1,
     author: "Profª. Débora",
     date: "26 de dez. de 2025",
     readTime: "8 min de leitura",
@@ -26,7 +31,7 @@ const blogPosts: BlogPost[] = [
   },
   {
     title: "Como se Preparar para o Mercado de Trabalho em 2026",
-    image: "/placeholder.svg",
+    image: blog2,
     author: "Prof. Ricardo",
     date: "20 de dez. de 2025",
     readTime: "6 min de leitura",
@@ -37,7 +42,7 @@ const blogPosts: BlogPost[] = [
   },
   {
     title: "Tendências de Carreira para os Próximos Anos",
-    image: "/placeholder.svg",
+    image: blog3,
     author: "Profª. Ana",
     date: "15 de dez. de 2025",
     readTime: "10 min de leitura",
@@ -48,7 +53,7 @@ const blogPosts: BlogPost[] = [
   },
   {
     title: "A Importância da Educação Continuada",
-    image: "/placeholder.svg",
+    image: blog4,
     author: "Prof. João",
     date: "10 de dez. de 2025",
     readTime: "5 min de leitura",
