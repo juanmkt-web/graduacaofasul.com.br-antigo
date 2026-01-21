@@ -591,16 +591,26 @@ All colors MUST be HSL.
     max-width: 100vw;
   }
   .blue-background .footer-container {
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    gap: 4px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 12px !important;
   }
-  .txtDir, .txtPol {
-    font-size: 9px !important;
+  .txtDir {
+    font-size: 8px !important;
     white-space: normal;
-    text-align: center;
-    width: 100%;
+    text-align: left;
+    flex: 1;
+    line-height: 1.3;
+  }
+  .txtPol {
+    font-size: 8px !important;
+    white-space: normal;
+    text-align: right;
+    flex-shrink: 0;
+    max-width: 60px;
+    line-height: 1.3;
   }
 }
 
