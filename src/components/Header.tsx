@@ -1,16 +1,45 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logoFasul from "@/assets/logo-fasul-lp-2.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // Debug (temporary): helps identify if the header is being hidden after initial paint.
+  useEffect(() => {
+    const el = document.querySelector("header");
+    console.log("[Header] mounted", {
+      hasHeader: Boolean(el),
+    });
+
+    const log = (label: string) => {
+      const headerEl = document.querySelector("header") as HTMLElement | null;
+      if (!headerEl) return console.log(`[Header] ${label}: not found`);
+      const styles = window.getComputedStyle(headerEl);
+      console.log(`[Header] ${label}`, {
+        display: styles.display,
+        opacity: styles.opacity,
+        visibility: styles.visibility,
+        zIndex: styles.zIndex,
+        rect: headerEl.getBoundingClientRect(),
+      });
+    };
+
+    requestAnimationFrame(() => log("rAF"));
+    const t = window.setTimeout(() => log("+1200ms"), 1200);
+    return () => window.clearTimeout(t);
+  }, []);
+
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#1e2842] border-b border-white/10 shadow-lg overflow-visible">
-      <div className="max-w-7xl mx-auto px-3 sm:px-4 py-3 md:py-5 flex items-center justify-between w-full">
-        <div className="flex items-center">
-          <img src={logoFasul} alt="Fasul Educação" className="h-12 md:h-14" />
+    <header className="fixed top-0 left-0 right-0 z-[100] isolate bg-[#1e2842] border-b border-white/10 shadow-lg overflow-visible">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 py-3 md:py-5 flex items-center justify-between w-full gap-2">
+        <div className="flex items-center min-w-0">
+          <img
+            src={logoFasul}
+            alt="Fasul Educação"
+            className="h-10 sm:h-12 md:h-14 w-auto max-w-[160px] sm:max-w-[200px] object-contain"
+          />
         </div>
 
         <nav className="hidden md:flex items-center gap-10">
@@ -28,11 +57,11 @@ const Header = () => {
           </a>
         </nav>
 
-        <div className="flex items-center gap-2 md:gap-4">
+        <div className="flex items-center gap-2 md:gap-4 flex-shrink-0">
           <a href="https://www.fasuleducacional.edu.br/posgraduacao/cursos" target="_blank" rel="noopener noreferrer">
             <Button
               variant="default"
-              className="bg-primary text-primary-foreground hover:bg-primary/80 font-semibold rounded-full text-[10px] sm:text-sm md:text-base px-2 sm:px-4 md:px-5 py-1.5 sm:py-2.5"
+              className="bg-primary text-primary-foreground hover:bg-primary/80 font-semibold rounded-full whitespace-nowrap text-[10px] sm:text-sm md:text-base px-2 sm:px-4 md:px-5 py-1.5 sm:py-2.5"
             >
               COMECE AGORA
             </Button>
