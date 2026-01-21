@@ -329,9 +329,9 @@ const Footer = () => {
 
       {/* Copyright Bar */}
       <div className="blue-background">
-      <div className="footer-container flex flex-row justify-between items-center gap-2 py-0.5 sm:py-2 !px-0 sm:!px-2">
-          <span className="txtDir text-[7px] sm:text-[15px]">COPYRIGHT © 1997-2025 - FASUL. TODOS OS DIREITOS RESERVADOS.</span>
-          <a className="txtPol text-[7px] sm:text-[15px] whitespace-nowrap" href="https://www.fasuleducacional.edu.br/termos-de-uso" title="Política de privacidade">Política de privacidade</a>
+        <div className="footer-container flex flex-row flex-nowrap justify-between items-center gap-1 sm:gap-2 py-0.5 sm:py-2 !px-1 sm:!px-2">
+          <span className="txtDir text-[5px] xs:text-[6px] sm:text-[15px] whitespace-nowrap">COPYRIGHT © 1997-2025 - FASUL. TODOS OS DIREITOS RESERVADOS.</span>
+          <a className="txtPol text-[5px] xs:text-[6px] sm:text-[15px] whitespace-nowrap" href="https://www.fasuleducacional.edu.br/termos-de-uso" title="Política de privacidade">Política de privacidade</a>
         </div>
       </div>
     </footer>
