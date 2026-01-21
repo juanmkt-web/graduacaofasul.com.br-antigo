@@ -595,17 +595,17 @@ All colors MUST be HSL.
     justify-content: space-between;
     align-items: flex-start;
     gap: 8px;
-    padding: 4px 8px !important;
+    padding: 3px 8px !important;
   }
   .txtDir {
-    font-size: 10px !important;
+    font-size: 11px !important;
     white-space: normal;
     text-align: left;
     flex: 1;
     line-height: 1.2;
   }
   .txtPol {
-    font-size: 10px !important;
+    font-size: 11px !important;
     white-space: normal;
     text-align: right;
     flex-shrink: 0;
