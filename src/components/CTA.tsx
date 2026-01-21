@@ -39,7 +39,7 @@ const CTA = () => {
   }, []);
 
   return (
-    <section className="py-6 md:py-24 gradient-animated relative overflow-hidden">
+    <section className="pt-12 pb-6 md:py-24 gradient-animated relative overflow-hidden">
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="absolute top-0 left-0 right-0 h-10 md:h-16 lg:h-20 rotate-180">
         <svg
