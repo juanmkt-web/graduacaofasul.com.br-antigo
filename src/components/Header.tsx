@@ -7,8 +7,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#1e2842] border-b border-white/10 shadow-lg">
-      <div className="container mx-auto px-4 py-4 md:py-5 flex items-center justify-between">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#1e2842] border-b border-white/10 shadow-lg overflow-visible">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 py-3 md:py-5 flex items-center justify-between w-full">
         <div className="flex items-center">
           <img src={logoFasul} alt="Fasul Educação" className="h-12 md:h-14" />
         </div>
