@@ -602,12 +602,13 @@ All colors MUST be HSL.
   padding-top: 32px;
   padding-bottom: 48px;
   background: linear-gradient(
-    to bottom, 
-    hsl(213 97% 55%) 0%,
-    hsl(230 80% 50%) 30%, 
-    hsl(215 70% 40%) 70%, 
-    #1E2842 100%
+    135deg,
+    #00c9ff 0%,
+    #6a11cb 50%,
+    #2575fc 100%
   );
+  background-size: 400% 400%;
+  animation: gradient-animation 8s ease infinite;
 }
 
 @media (min-width: 768px) {
