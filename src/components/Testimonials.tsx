@@ -139,18 +139,9 @@ const Testimonials = () => {
           </div>
         </div>
 
-        {/* Grid de 3 cards para telas >= 1200px */}
-        <div className="hidden desktop:flex items-center gap-4 max-w-7xl mx-auto">
-          {/* Botão anterior desktop */}
-          <button
-            onClick={goToPrevious}
-            className="flex-shrink-0 w-10 h-10 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center text-white transition-all"
-            aria-label="Depoimento anterior"
-          >
-            <ChevronLeft className="w-6 h-6" />
-          </button>
-
-          <div className="grid grid-cols-3 gap-6 ultrawide:gap-7 flex-1">
+        {/* Grid de cards (sem botões) para telas >= 1200px */}
+        <div className="hidden desktop:block max-w-7xl mx-auto">
+          <div className="grid grid-cols-3 gap-6 ultrawide:gap-7">
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
@@ -174,15 +165,6 @@ const Testimonials = () => {
               </div>
             ))}
           </div>
-
-          {/* Botão próximo desktop */}
-          <button
-            onClick={goToNext}
-            className="flex-shrink-0 w-10 h-10 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center text-white transition-all"
-            aria-label="Próximo depoimento"
-          >
-            <ChevronRight className="w-6 h-6" />
-          </button>
         </div>
       </div>
     </section>
