@@ -89,7 +89,7 @@ const Testimonials = () => {
           {/* Botão anterior */}
           <button
             onClick={goToPrevious}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 md:-translate-x-4 z-20 w-8 h-8 md:w-10 md:h-10 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full items-center justify-center text-white transition-all flex max-[1099px]:flex hidden min-[1100px]:hidden"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 md:-translate-x-4 z-20 w-8 h-8 md:w-10 md:h-10 bg-white/15 hover:bg-white/25 backdrop-blur-sm rounded-full flex items-center justify-center text-white/90 hover:text-white transition-all"
             aria-label="Depoimento anterior"
           >
             <ChevronLeft className="w-5 h-5 md:w-6 md:h-6" />
@@ -119,7 +119,7 @@ const Testimonials = () => {
           {/* Botão próximo */}
           <button
             onClick={goToNext}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 md:translate-x-4 z-20 w-8 h-8 md:w-10 md:h-10 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full items-center justify-center text-white transition-all flex max-[1099px]:flex hidden min-[1100px]:hidden"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 md:translate-x-4 z-20 w-8 h-8 md:w-10 md:h-10 bg-white/15 hover:bg-white/25 backdrop-blur-sm rounded-full flex items-center justify-center text-white/90 hover:text-white transition-all"
             aria-label="Próximo depoimento"
           >
             <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
