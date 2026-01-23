@@ -17,9 +17,9 @@ const faqItems = [
       "Oferecemos diversas formas de pagamento: boleto bancário, cartão de crédito (com parcelamento, ou a vista), PIX e débito automático.",
   },
   {
-    question: "Posso transferir meu Curso de outra instituição?",
+    question: "Posso transferir meu Curso de outra Instituição?",
     answer:
-      "Sim, aceitamos transferências de outras instituições de ensino superior. As disciplinas Cursadas podem ser aproveitadas mediante análise curricular, reduzindo o tempo de conclusão do Curso.",
+      "Sim, aceitamos transferências de outras Instituições de ensino superior. As disciplinas Cursadas podem ser aproveitadas mediante análise curricular, reduzindo o tempo de conclusão do Curso.",
   },
   {
     question: "Quais são as modalidades disponíveis?",
@@ -52,7 +52,9 @@ const FAQ = () => {
                 <AccordionTrigger className="text-left text-[#1E2842] font-medium text-sm md:text-lg hover:no-underline py-3 md:py-5">
                   {item.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-600 text-xs md:text-base pb-3 md:pb-5">{item.answer}</AccordionContent>
+                <AccordionContent className="text-gray-600 text-xs md:text-base pb-3 md:pb-5">
+                  {item.answer}
+                </AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
