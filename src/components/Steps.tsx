@@ -15,7 +15,7 @@ const steps = [
   {
     icon: Rocket,
     title: "Acelere seu Futuro",
-    description: "Estude no seu ritmo, conclua seu curso e receba seu diploma reconhecido nacionalmente.",
+    description: "Estude no seu ritmo, conclua seu Curso e receba seu Diploma reconhecido nacionalmente.",
   },
 ];
 
