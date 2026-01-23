@@ -47,8 +47,8 @@ const Benefits = () => {
                 <p className="text-sm md:text-lg text-white/80 leading-relaxed">
                   Conclua sua Faculdade <strong className="text-white">A partir de 2 anos </strong>
                   com a excelência de uma
-                  <strong className="text-white"> Instituição Nota 5 no MEC.</strong>, Garanta seu diferencial
-                  competitivo com <strong className="text-white">10 cursos exclusivos de IA</strong> inclusos e a
+                  <strong className="text-white"> Instituição Nota 5 no MEC.</strong> Garanta seu diferencial
+                  competitivo com <strong className="text-white">10 Cursos exclusivos de IA</strong> inclusos e a
                   flexibilidade que você precisa para estudar.
                 </p>
               </div>
