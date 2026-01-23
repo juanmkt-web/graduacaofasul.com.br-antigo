@@ -386,7 +386,7 @@ const Courses = () => {
             <Button
               onClick={loadMore}
               variant="outline"
-              className="bg-white/10 border-2 border-white text-white hover:bg-white hover:text-primary font-bold px-10 py-6 text-lg rounded-full transition-all duration-300"
+              className="bg-white/10 border-2 border-white text-white hover:bg-white hover:text-primary font-bold px-6 py-4 text-sm md:px-10 md:py-6 md:text-lg rounded-full transition-all duration-300"
             >
               VER MAIS CURSOS
             </Button>
