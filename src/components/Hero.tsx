@@ -41,7 +41,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-base md:text-xl text-white/90 leading-relaxed mb-3 md:mb-8">
-              Chega de salários baixos. Conquiste uma graduação ágil, focada no que as empresas precisam hoje, e acesse
+              Chega de salários baixos. Conquiste uma Graduação ágil, focada no que as empresas precisam hoje, e acesse
               as melhores faixas salariais.
             </p>
 
